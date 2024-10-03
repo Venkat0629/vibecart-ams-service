@@ -24,7 +24,7 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("VibeCart API")
+                .title("VibeCart Account API")
                 .description("API documentation for the VibeCart Account Management Service.")
                 .version("1.0.0")
                 .build();
