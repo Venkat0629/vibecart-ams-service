@@ -16,7 +16,7 @@ public class WebConfig implements WebMvcConfigurer {
                 .allowedOrigins("*") // Allow any origin
                 .allowedMethods("*") // Allow any method (GET, POST, etc.)
                 .allowedHeaders("*") // Allow any header
-                .allowCredentials(true); // Do not allow credentials (like cookies)
+                .allowCredentials(false); // Do not allow credentials (like cookies)
     }
     @Bean
     public PasswordEncoder passwordEncoder() {
